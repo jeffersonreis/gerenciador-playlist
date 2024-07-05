@@ -16,7 +16,7 @@ export class PlaylistController {
     return this.playlistService.findByUsernameAndPassword(username, password);
   }
 
-  @Get()
+  @Get('/get.php')
   @Redirect()
   async redirect(@Query('username') username: string, @Query('password') password: string) {
     const playlist = await this.playlistService.findByUsernameAndPassword(username, password);

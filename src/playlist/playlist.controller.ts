@@ -73,11 +73,18 @@ export class PlaylistController {
     }
     return { url: defaultUrl };
   }
-  
-  @Get('/:username/:password/:id.ts')
+
+  @Get('/live/:username/:password/:id.ts')
   @Redirect()
-  async redirectTs(@Param('username') username: string, @Param('password') password: string, @Param('id') id: string) {
-    const url = `http://ceua.net/${username}/${password}/${id}.ts`;
+  async redirectLive(@Param('username') username: string, @Param('password') password: string, @Param('id') id: string) {
+    const url = `http://ceua.net/live/${username}/${password}/${id}.ts`;
+    return { url };
+  }
+
+  @Get('/movie/:username/:password/:id.ts')
+  @Redirect()
+  async redirectMovie(@Param('username') username: string, @Param('password') password: string, @Param('id') id: string) {
+    const url = `http://ceua.net/movie/${username}/${password}/${id}.ts`;
     return { url };
   }
 }

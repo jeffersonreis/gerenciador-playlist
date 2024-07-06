@@ -12,7 +12,7 @@ export class PlaylistController {
     const queryString = new URLSearchParams(queryParams).toString();
     const originalPath = req.path;
     const newUrl = `http://ceua.net${originalPath}${queryString ? '?' + queryString : ''}`;
-    console.log("NEW URL", newUrl)
+    console.log("NEW URL", newUrl, "\n")
     return res.redirect(newUrl);
   }
 

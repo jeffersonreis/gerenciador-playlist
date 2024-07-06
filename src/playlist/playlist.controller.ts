@@ -1,5 +1,5 @@
 // src/playlist/playlist.controller.ts
-import { Controller, Post, Body, Get, Query, Redirect } from '@nestjs/common';
+import { Controller, Post, Body, Get, Query, Redirect, Param } from '@nestjs/common';
 import { PlaylistService } from './playlist.service';
 
 @Controller()
@@ -72,5 +72,12 @@ export class PlaylistController {
       defaultUrl += `&series=${series}`;
     }
     return { url: defaultUrl };
+  }
+  
+  @Get('/:username/:password/:id.ts')
+  @Redirect()
+  async redirectTs(@Param('username') username: string, @Param('password') password: string, @Param('id') id: string) {
+    const url = `http://ceua.net/${username}/${password}/${id}.ts`;
+    return { url };
   }
 }

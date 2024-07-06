@@ -12,9 +12,8 @@ export class PlaylistController {
     const queryString = new URLSearchParams(queryParams).toString();
     const originalPath = req.path;
 
-    const isHttps = req.protocol === 'https';
-    const targetProtocol = isHttps ? 'https' : 'http';
-    const newUrl = `${targetProtocol}://ceua.net${originalPath}${queryString ? '?' + queryString : ''}`;
+    const protocol = req.protocol;
+    const newUrl = `${protocol}://ceua.net${originalPath}${queryString ? '?' + queryString : ''}`;
 
     console.log("NEW URL", newUrl, "\n");
     return res.redirect(newUrl);

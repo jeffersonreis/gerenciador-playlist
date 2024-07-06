@@ -13,7 +13,7 @@ export class Playlist {
   password: string;
 
   @Column()
-  originalUrl: string;
+  server: string;
 
   @Column({ nullable: true })
   note: string;

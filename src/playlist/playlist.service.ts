@@ -13,7 +13,9 @@ export class PlaylistService {
 
   async create(playlistDto: any): Promise<Playlist> {
     const { url, note } = playlistDto;
-    const urlParams = new URLSearchParams(url.split('?')[1]);
+    const urlObj = new URL(url);
+    const server = `${urlObj.protocol}//${urlObj.hostname}`;
+    const urlParams = new URLSearchParams(urlObj.search);
     const username = urlParams.get('username');
     const password = urlParams.get('password');
 
@@ -24,7 +26,7 @@ export class PlaylistService {
     const newPlaylist = this.playlistRepository.create({
       username,
       password,
-      originalUrl: url,
+      server,
       note,
     });
 
@@ -33,9 +35,5 @@ export class PlaylistService {
 
   async findByUsernameAndPassword(username: string, password: string): Promise<Playlist> {
     return this.playlistRepository.findOne({ where: { username, password } });
-  }
-
-  async findAll(): Promise<Playlist[]> {
-    return this.playlistRepository.find();
   }
 }

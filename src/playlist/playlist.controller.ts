@@ -81,10 +81,10 @@ export class PlaylistController {
     return { url };
   }
 
-  @Get('/movie/:username/:password/:id.ts')
+  @Get('/movie/:username/:password/:id.:extension')
   @Redirect()
-  async redirectMovie(@Param('username') username: string, @Param('password') password: string, @Param('id') id: string) {
-    const url = `http://ceua.net/movie/${username}/${password}/${id}.ts`;
+  async redirectMovie(@Param('username') username: string, @Param('password') password: string, @Param('id') id: string, @Param('extension') extension: string) {
+    const url = `http://ceua.net/movie/${username}/${password}/${id}.${extension}`;
     return { url };
   }
 }

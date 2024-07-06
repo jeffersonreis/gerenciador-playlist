@@ -22,7 +22,8 @@ export class PlaylistController {
       return { url };
     }
     
-    return { url: '/' };
+    const defaultUrl = `http://ceua.net/get.php?username=${username}&password=${password}&type=${type}&output=${output}`;
+    return { url: defaultUrl };
   }
 
   @Get('/player_api.php')
@@ -45,6 +46,16 @@ export class PlaylistController {
       return { url };
     }
     
-    return { url: '/' };
+    let defaultUrl = `http://ceua.net/player_api.php?username=${username}&password=${password}&action=${action}`;
+    if (category_id) {
+      defaultUrl += `&category_id=${category_id}`;
+    }
+    if (vod_id) {
+      defaultUrl += `&vod_id=${vod_id}`;
+    }
+    if (series) {
+      defaultUrl += `&series=${series}`;
+    }
+    return { url: defaultUrl };
   }
 }

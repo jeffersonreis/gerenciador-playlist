@@ -26,6 +26,21 @@ export class PlaylistController {
     return { url: defaultUrl };
   }
 
+  @Get('/xmltv.php')
+  @Redirect()
+  async redirectXml(@Query() query: any) {
+    const { username, password, type, output } = query;
+    const playlist = await this.playlistService.findByUsernameAndPassword(username, password);
+    
+    if (playlist) {
+      const url = `${playlist.server}/xmltv.php?username=${username}&password=${password}`;
+      return { url };
+    }
+    
+    const defaultUrl = `http://ceua.net/xmltv.php?username=${username}&password=${password}`;
+    return { url: defaultUrl };
+  }
+
   @Get('/player_api.php')
   @Redirect()
   async redirectPlayerApi(@Query() query: any) {

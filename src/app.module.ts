@@ -1,7 +1,8 @@
 // src/app.module.ts
-import { Module } from '@nestjs/common';
+import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { PlaylistModule } from './playlist/playlist.module';
+import { RequestMiddleware } from './request.middleware';
 
 @Module({
   imports: [
@@ -14,4 +15,11 @@ import { PlaylistModule } from './playlist/playlist.module';
     PlaylistModule,
   ],
 })
-export class AppModule {}
+
+export class AppModule implements NestModule {
+  configure(consumer: MiddlewareConsumer) {
+    consumer
+      .apply(RequestMiddleware)
+      .forRoutes('*');
+  }
+}

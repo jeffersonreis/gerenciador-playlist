@@ -13,7 +13,7 @@ export class PlaylistController {
     const originalPath = req.path;
 
     const protocol = req['realProtocol'];
-    const newUrl = `${protocol}://ceua.net${originalPath}${queryString ? '?' + queryString : ''}`;
+    const newUrl = `${protocol}://prina.so${originalPath}${queryString ? '?' + queryString : ''}`;
 
     console.log("NEW URL", newUrl, "\n");
     return res.redirect(newUrl);

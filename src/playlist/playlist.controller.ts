@@ -16,7 +16,7 @@ export class PlaylistController {
   const username = queryParams.username;
 
   // Verifica se o username contém a string "tvs"
-  const baseUrl = username && username.includes("tvs") ? "tvs.futbol" : "123c.pro";
+  const baseUrl = username && username.includes("tvs") ? "185.236.183.29" : "45.134.142.148";
 
   // Monta a nova URL
   const newUrl = `${protocol}://${baseUrl}${originalPath}${queryString ? '?' + queryString : ''}`;

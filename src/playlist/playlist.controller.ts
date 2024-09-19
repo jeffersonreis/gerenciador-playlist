@@ -9,15 +9,21 @@ export class PlaylistController {
 
   @Get('*')
   handleRedirect(@Req() req: Request, @Query() queryParams, @Res() res: Response) {
-    const queryString = new URLSearchParams(queryParams).toString();
-    const originalPath = req.path;
+  const queryString = new URLSearchParams(queryParams).toString();
+  const originalPath = req.path;
 
-    const protocol = req['realProtocol'];
-    const newUrl = `${protocol}://123c.pro${originalPath}${queryString ? '?' + queryString : ''}`;
+  const protocol = req['realProtocol'];
+  const username = queryParams.username;
 
-    console.log("NEW URL", newUrl, "\n");
-    return res.redirect(newUrl);
-  }
+  // Verifica se o username contém a string "tvs"
+  const baseUrl = username && username.includes("tvs") ? "tvs.futbol" : "123c.pro";
+
+  // Monta a nova URL
+  const newUrl = `${protocol}://${baseUrl}${originalPath}${queryString ? '?' + queryString : ''}`;
+
+  console.log("NEW URL", newUrl, "\n");
+  return res.redirect(newUrl);
+}
 
   // @Post('playlist/create')
   // async create(@Body() createPlaylistDto: any) {

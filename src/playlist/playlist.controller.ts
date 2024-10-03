@@ -18,7 +18,7 @@ export class PlaylistController {
   // Verifica se o username contém a string "tvs"
   const shouldRedirectToTvsFutbol = originalPath.includes("xtvs") || (queryParams.username && queryParams.username.includes("xtvs"));
 
-  const baseUrl = shouldRedirectToTvsFutbol ? "185.236.183.139" : "79.127.238.194";
+  const baseUrl = shouldRedirectToTvsFutbol ? "185.236.183.139" : "149.102.224.101";
 
 
   // Monta a nova URL

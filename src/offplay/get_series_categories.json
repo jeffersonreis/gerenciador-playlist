@@ -1,0 +1,122 @@
+[
+	{
+		"category_id": "3",
+		"category_name": "Séries | Netflix",
+		"parent_id": 0
+	},
+	{
+		"category_id": "58",
+		"category_name": "Séries | Disney +",
+		"parent_id": 0
+	},
+	{
+		"category_id": "51",
+		"category_name": "Séries | HBO MAX",
+		"parent_id": 0
+	},
+	{
+		"category_id": "50",
+		"category_name": "Séries | Prime Video",
+		"parent_id": 0
+	},
+	{
+		"category_id": "84",
+		"category_name": " Séries | Star +",
+		"parent_id": 0
+	},
+	{
+		"category_id": "52",
+		"category_name": "Séries | Globoplay",
+		"parent_id": 0
+	},
+	{
+		"category_id": "126",
+		"category_name": "Séries | Paramount",
+		"parent_id": 0
+	},
+	{
+		"category_id": "127",
+		"category_name": "Séries | Apple TV",
+		"parent_id": 0
+	},
+	{
+		"category_id": "49",
+		"category_name": "Séries | Diversas",
+		"parent_id": 0
+	},
+	{
+		"category_id": "56",
+		"category_name": "Séries | Novelas",
+		"parent_id": 0
+	},
+	{
+		"category_id": "113",
+		"category_name": "Turcas | Séries e Novelas",
+		"parent_id": 0
+	},
+	{
+		"category_id": "54",
+		"category_name": "Séries | Desenhos",
+		"parent_id": 0
+	},
+	{
+		"category_id": "53",
+		"category_name": "Séries | Animes",
+		"parent_id": 0
+	},
+	{
+		"category_id": "89",
+		"category_name": "Séries | Discovery+",
+		"parent_id": 0
+	},
+	{
+		"category_id": "91",
+		"category_name": "Séries | National Geographic",
+		"parent_id": 0
+	},
+	{
+		"category_id": "103",
+		"category_name": " Séries | Dorama",
+		"parent_id": 0
+	},
+	{
+		"category_id": "117",
+		"category_name": " Séries | Legendadas",
+		"parent_id": 0
+	},
+	{
+		"category_id": "1000005",
+		"category_name": "Séries | Programas De TV",
+		"parent_id": 0
+	},
+	{
+		"category_id": "59",
+		"category_name": "Séries | Reality Show",
+		"parent_id": 0
+	},
+	{
+		"category_id": "55",
+		"category_name": "Séries | Documentarios",
+		"parent_id": 0
+	},
+	{
+		"category_id": "92",
+		"category_name": "Séries | Brasil Paralelo",
+		"parent_id": 0
+	},
+	{
+		"category_id": "65",
+		"category_name": "Séries | Cursos \/ Aulas",
+		"parent_id": 0
+	},
+	{
+		"category_id": "95",
+		"category_name": " Séries | Treine em Casa - Aulas",
+		"parent_id": 0
+	},
+	{
+		"category_id": "1000014",
+		"category_name": " Séries | Adultas +18",
+		"parent_id": 0
+	}
+]

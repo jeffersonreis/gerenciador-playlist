@@ -1,0 +1,222 @@
+[
+	{
+		"category_id": "2",
+		"category_name": "Filmes | Lançamentos 2024",
+		"parent_id": 0
+	},
+	{
+		"category_id": "1000003",
+		"category_name": " Filmes | Lançamentos 2023",
+		"parent_id": 0
+	},
+	{
+		"category_id": "1000004",
+		"category_name": " Filmes | Lançamentos 2022",
+		"parent_id": 0
+	},
+	{
+		"category_id": "78",
+		"category_name": "Filmes | Cinema",
+		"parent_id": 0
+	},
+	{
+		"category_id": "33",
+		"category_name": "Filmes | 4K",
+		"parent_id": 0
+	},
+	{
+		"category_id": "128",
+		"category_name": "Filmes | Netflix",
+		"parent_id": 0
+	},
+	{
+		"category_id": "104",
+		"category_name": " Filmes | Disney +",
+		"parent_id": 0
+	},
+	{
+		"category_id": "130",
+		"category_name": "Filmes | HBO Max",
+		"parent_id": 0
+	},
+	{
+		"category_id": "131",
+		"category_name": "Filmes | Prime Video",
+		"parent_id": 0
+	},
+	{
+		"category_id": "133",
+		"category_name": " Filmes | GloboPlay",
+		"parent_id": 0
+	},
+	{
+		"category_id": "135",
+		"category_name": " Filmes | Apple TV+",
+		"parent_id": 0
+	},
+	{
+		"category_id": "132",
+		"category_name": " Filmes | Star +",
+		"parent_id": 0
+	},
+	{
+		"category_id": "134",
+		"category_name": " Filmes | Paramount +",
+		"parent_id": 0
+	},
+	{
+		"category_id": "32",
+		"category_name": "Filmes | Ação",
+		"parent_id": 0
+	},
+	{
+		"category_id": "34",
+		"category_name": "Filmes | Animação",
+		"parent_id": 0
+	},
+	{
+		"category_id": "35",
+		"category_name": "Filmes | Comedia",
+		"parent_id": 0
+	},
+	{
+		"category_id": "36",
+		"category_name": "Filmes | Drama",
+		"parent_id": 0
+	},
+	{
+		"category_id": "61",
+		"category_name": "Filmes |  DC Comics",
+		"parent_id": 0
+	},
+	{
+		"category_id": "60",
+		"category_name": "Filmes | Marvel",
+		"parent_id": 0
+	},
+	{
+		"category_id": "39",
+		"category_name": "Filmes | Ficção ",
+		"parent_id": 0
+	},
+	{
+		"category_id": "47",
+		"category_name": "Filmes | Terror",
+		"parent_id": 0
+	},
+	{
+		"category_id": "42",
+		"category_name": "Filmes | Suspense",
+		"parent_id": 0
+	},
+	{
+		"category_id": "88",
+		"category_name": "Filmes | Anime",
+		"parent_id": 0
+	},
+	{
+		"category_id": "37",
+		"category_name": "Filmes | Fantasia",
+		"parent_id": 0
+	},
+	{
+		"category_id": "38",
+		"category_name": "Filmes | Faroeste",
+		"parent_id": 0
+	},
+	{
+		"category_id": "45",
+		"category_name": "Filmes | Romance",
+		"parent_id": 0
+	},
+	{
+		"category_id": "93",
+		"category_name": "Filmes | Aventura",
+		"parent_id": 0
+	},
+	{
+		"category_id": "40",
+		"category_name": "Filmes | Infantil",
+		"parent_id": 0
+	},
+	{
+		"category_id": "136",
+		"category_name": " Filmes | Crime",
+		"parent_id": 0
+	},
+	{
+		"category_id": "74",
+		"category_name": " Filmes | Nacional",
+		"parent_id": 0
+	},
+	{
+		"category_id": "999999",
+		"category_name": " Filmes | Guerra",
+		"parent_id": 0
+	},
+	{
+		"category_id": "77",
+		"category_name": " Filmes | Legendados",
+		"parent_id": 0
+	},
+	{
+		"category_id": "46",
+		"category_name": "Filmes | Documentarios",
+		"parent_id": 0
+	},
+	{
+		"category_id": "1000007",
+		"category_name": "Filmes | Despertar Uma Nova Consciência ",
+		"parent_id": 0
+	},
+	{
+		"category_id": "41",
+		"category_name": "Filmes | Religioso",
+		"parent_id": 0
+	},
+	{
+		"category_id": "139",
+		"category_name": "Shows -|- Gospel",
+		"parent_id": 0
+	},
+	{
+		"category_id": "94",
+		"category_name": "Filmes | Brasil Paralelo",
+		"parent_id": 0
+	},
+	{
+		"category_id": "57",
+		"category_name": "Filmes | 007 Coleção",
+		"parent_id": 0
+	},
+	{
+		"category_id": "144",
+		"category_name": "Filmes | Sons Para Dormir ",
+		"parent_id": 0
+	},
+	{
+		"category_id": "97",
+		"category_name": " Filmes | Copa Do Mundo 2022",
+		"parent_id": 0
+	},
+	{
+		"category_id": "1000012",
+		"category_name": "Shows Rock in Rio 2024",
+		"parent_id": 0
+	},
+	{
+		"category_id": "85",
+		"category_name": "Shows Rock in Rio 2022",
+		"parent_id": 0
+	},
+	{
+		"category_id": "48",
+		"category_name": "Filmes | Adultos +18",
+		"parent_id": 0
+	},
+	{
+		"category_id": "90",
+		"category_name": "Filmes | Adultos LGBT",
+		"parent_id": 0
+	}
+]

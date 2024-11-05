@@ -12,7 +12,7 @@ export class PlaylistController {
 
   @Get('*')
   handleRedirect(@Req() req: Request, @Query() queryParams, @Res() res: Response) {
-  const clubOff = false;
+  const clubOff = true;
   const tvsOff = false;
   const queryString = new URLSearchParams(queryParams).toString();
   const originalPath = req.path;

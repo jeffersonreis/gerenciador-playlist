@@ -12,7 +12,7 @@ export class PlaylistController {
 
   @Get('*')
   handleRedirect(@Req() req: Request, @Query() queryParams, @Res() res: Response) {
-  const clubOff = true;
+  const clubOff = false;
   const tvsOff = false;
   const queryString = new URLSearchParams(queryParams).toString();
   const originalPath = req.path;
@@ -199,7 +199,7 @@ export class PlaylistController {
       newUrl =  "https://stream1.freetv.fun/globo-rj-2-1.ctv"
     }
 
-    // Discovery HH
+    // nxplay HH
     if (originalPath.endsWith("/24.ts")) {
       newUrl =  "https://cdn-2.nxplay.com.br/DISCOVERY_HH_NX/index.m3u8"
     }

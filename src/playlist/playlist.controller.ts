@@ -26,7 +26,7 @@ export class PlaylistController {
   // Verifica se o username contém "temp1"
   const forceTemp = originalPath.includes("temp123") || (queryParams.username && queryParams.username.includes("temp123"))
 
-  const baseUrl = shouldRedirectToTvsFutbol ? "zsamason.net" : "79.127.243.148";
+  const baseUrl = shouldRedirectToTvsFutbol ? "pioma77.org" : "79.127.243.148";
 
   if ((shouldRedirectToTvsFutbol || !clubOff) && !forceTemp) {
     // Monta a nova URL

@@ -26,7 +26,7 @@ export class PlaylistController {
   // Verifica se o username contém "temp1"
   const forceTemp = originalPath.includes("temp123") || (queryParams.username && queryParams.username.includes("temp123"))
 
-  const baseUrl = shouldRedirectToTvsFutbol ? "niver.top" : "138.199.11.72";
+  const baseUrl = shouldRedirectToTvsFutbol ? "niver.top" : "38.99.238.157";
 
   if ((shouldRedirectToTvsFutbol || !clubOff) && !forceTemp) {
     // Monta a nova URL
